@@ -26,35 +26,350 @@
 
 <body>
 	<!-- Custom HTML -->
-	<header id="header" class="header_fon">
+	<header id="header">
+		<div class="grid_conteiner">
 
-		<h1>Заглавие шапки сайта</h1>
+			<div class="header_left">
+				<img class="header__logo"
+				src="/img/logo.png"
+				alt="Логотип"
+				srcset="/img/logo.png 1x,
+				/img/logo-2x.png 2x" >
+				<p class="header__slogan">ASSOCIATES<br> STUDIO<br> DESIGN</p>
+				<ul class="header__socials socials">
+					<li class="socials__element">
+						<a class="socials__link" aria-label="Facebook" href="#">
+							<svg class="socials__facebook">
+								<use xlink:href="/img/sprite/sprite.svg#fb"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="socials__element">
+						<a class="socials__link" aria-label="Twitter" href="#">
+							<svg class="socials__twitter">
+								<use xlink:href="/img/sprite/sprite.svg#twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="socials__element">
+						<a class="socials__link" aria-label="Linkedin" href="#">
+							<svg class="socials__linkedin">
+								<use xlink:href="/img/sprite/sprite.svg#linked"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="socials__element">
+						<a class="socials__link" aria-label="Google plus" href="#">
+							<svg class="socials__google">
+								<use xlink:href="/img/sprite/sprite.svg#google"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
 
-		<div class="in_hea">Это прикольное название блока</div>
+			</div>
+
+			<div class="header_right">
+				<p class="header__address">90802 California<br> Long beach<br> PO Box 68789<br> 300 East Ocean<br> Boulevard</p>
+				<p class="header__contacts">
+					<a class="header__tel" href="tel:+6493456758">+64 9 345 6758</a>
+					<br>
+					<a class="header__mail" href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
+				</p>
+			</div>
+
+
+		</div>
+
 
 	</header><!-- /header -->
+<nav class=" menu">
+	<ul class="menu__list">
+		<li><a class="top_menu_link" href="#" title="ссылка на главную">Главная</a></li>
+		<li><a class="top_menu_link" href="#" title="ссылка на проекты">Проекты</a></li>
+		<li><a class="top_menu_link" href="#" title="ссылка на студия">Студия</a></li>
+		<li><a class="top_menu_link" href="#" title="ссылка на новости">Новости</a></li>
+		<li><a class="top_menu_link" href="#" title="ссылка на контакты">Контакты</a></li>
+
+
+	</ul>
+</nav>
+<button type="" class="nenu_humburger humburger" aria-label="кнопка меню">
+<span></span>
+ </button>
+
 
 	<main>
+
+<!--  разметка второго ряда шаблона      -->
+
+<section class="projects">
+    <div class="projects__element_one">
+      <ul class="projects__links links">
+        <li class="links__item">
+          <a class="links__link" href="#">All</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">House</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">Commercial</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">Personal</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">Studio Lab</a>
+        </li>
+      </ul>
+      <h1 class="projects__title">projects</h1>
+    </div>
+
+   <div class="projects__element_two">
+      <div class="projects__info">
+        <h2 class="projects__name">FONDUE</h2>
+        <p class="projects__description"><b>Project Assistant:</b> Francesco Dompieri</p>
+        <p class="projects__description"><b>Material:</b> Glass and Metal</p>
+        <p class="projects__description"><b>Typology:</b> Suspension lamp</p>
+        <p class="projects__description"><b>Client:</b> David Design</p>
+        <p class="projects__description"><b>Year:</b> 2014</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- three -->
+   <div class="projects__element_third">
+      <div class="projects__info">
+        <h2 class="projects__name">potter</h2>
+        <p class="projects__description"><b>for</b> stelton</p>
+        <p class="projects__description">Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- four -->
+  <div class="projects__element_foure">
+      <div class="projects__info">
+        <h2 class="projects__name">tabano</h2>
+        <p class="projects__description"><b>DESIGNER:</b> PATRICIA URQUIOLA</p>
+        <p class="projects__description"><b>Typology:</b> Armchairs</p>
+        <p class="projects__description"><b>Client:</b> B&B ITALIA</p>
+        <p class="projects__description"><b>Year:</b> 2014</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- five -->
+  <div class="projects__element_five">
+      <div class="projects__info">
+        <h2 class="projects__name">louis xx</h2>
+        <p class="projects__description"><b>DESIGNER:</b> philippe starck</p>
+        <p class="projects__description"><b>Typology:</b> chairs</p>
+        <p class="projects__description"><b>Client:</b> vitra</p>
+        <p class="projects__description"><b>Year:</b> 2012</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- six -->
+   <div class="projects__element_six">
+      <div class="projects__info">
+        <h2 class="projects__name">395-396 P22</h2>
+        <p class="projects__description"><b>DESIGNER:</b> Patrick Norguet</p>
+        <p class="projects__description"><b>Typology:</b> ARMchairs</p>
+        <p class="projects__description"><b>Client:</b> Cassina</p>
+        <p class="projects__description"><b>Year:</b> 2013</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+
+ <div class="projects__element_seven">
+      <div class="projects__info">
+        <h2 class="projects__name">FIJI</h2>
+        <p class="projects__description"><b>DESIGNER:</b> Cuno Frommherz</p>
+        <p class="projects__description"><b>Typology:</b> armchairs</p>
+        <p class="projects__description"><b>Year:</b> 2012</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- eight -->
+ <div class="projects__element_eight">
+      <div class="projects__info">
+        <h2 class="projects__name">Sesann</h2>
+        <p class="projects__description"><b>DESIGNER:</b> Gianfranco Frattini</p>
+        <p class="projects__description"><b>Typology:</b> armchairs</p>
+        <p class="projects__description"><b>Client:</b> cassina</p>
+        <p class="projects__description"><b>Year:</b> 1970</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="/img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+<!-- nine -->
+  <div class="projects__element_nine">
+      <div class="projects__info">
+        <h2 class="projects__name">Alessi</h2>
+        <p class="projects__description"><b>DESIGNER:</b> Piero Lissoni</p>
+        <p class="projects__description"><b>Client:</b> Alessi</p>
+        <p class="projects__description"><b>Year:</b> 2013</p>
+      </div>
+      <div class="projects__counter">
+        <a class="projects__view" href="#">
+          <span>view project</span>
+        </a>
+        <p class="projects__like like">
+          <button aria-label="Like" class="like__btn">
+            <svg>
+              <use xlink:href="../img/sprite/sprite.svg#heart"></use>
+            </svg>
+          </button>
+          <span class="like__counts">+ 200</span>
+        </p>
+      </div>
+    </div>
+
+   <div class="projects__element_ten">
+      <p class="projects__subtitle">timeline</p>
+      <ul class="projects__links links">
+        <li class="links__item">
+          <a class="links__link" href="#">2014</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">2013</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">2012</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">2011</a>
+        </li>
+        <li class="links__item">
+          <a class="links__link" href="#">2010</a>
+        </li>
+      </ul>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<section cass="block">
 			<div class="container">
 				<h2 class="block_title">Это заглавие блока </h2>
 				<div class="row">
-<div class="grid_conteiner">
-<div class="grid_conteiner_items">1</div>
+<div class="g_conteiner">
+<div class="grid_conteiner_items">  111111111  1</div>
 <div class="grid_conteiner_items">2 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.  </div>
-<div class="grid_conteiner_items">3</div>
-<div class="grid_conteiner_items">4</div>
-<div class="grid_conteiner_items">5</div>
-<div class="grid_conteiner_items">6</div>
-<div class="grid_conteiner_items">7</div>
-<div class="grid_conteiner_items">8</div>
-
-<div class="grid_conteiner_items">9</div>
-<div class="grid_conteiner_items">10</div>
-<div class="grid_conteiner_items">11</div>
- <div class="grid_conteiner_items">12</div>
-<div class="grid_conteiner_items">13</div>
+<div class="grid_conteiner_items">32 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">42 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные текстыДалеко-далеко за словесными горами в стране, гласных и согласных живут рыбные текстыДалеко-далеко за словесными горами в стране, гласных и согласных живут рыбные текстыДалеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">52 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">62 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">72 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">82 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">92 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">102 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">112 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+ <div class="grid_conteiner_items">122 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
+<div class="grid_conteiner_items">132 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. 2 Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</div>
 
 </div>
 				</div>
