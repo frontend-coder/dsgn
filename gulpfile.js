@@ -158,9 +158,9 @@ gulp.task('rsync', function() {
 
 gulp.task( 'ftp', function () {
   var conn = vinyFTP.create( {
-   host:     'vh116.timeweb.ru',
-   user:     'cx76534',
-   password: 'PowO7q2Qcv2Y',
+   host:     'vh201.timeweb.ru',
+   user:     'cb96064',
+   password: 'ROZgrQQZTf3h',
    parallel: 10,
    log:      gulpUtil.log
  } );
@@ -211,7 +211,7 @@ function movefile() {
   }
   function movecss() {
     return gulp.src('app/css/*')
-   .pipe(cleancss( {level: { 2: { specialComments: 0 } } })) // Opt., comment out when debugging
+  // .pipe(cleancss( {level: { 2: { specialComments: 0 } } })) // Opt., comment out when debugging
    .pipe(gulp.dest('dist/css'))
    .pipe(filesize()).on('error', gulpUtil.log);
  }

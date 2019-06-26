@@ -7,6 +7,7 @@
 		url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	font-display: fallback;
 }
 
 @font-face {
@@ -17,6 +18,7 @@
 		url("../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: 700;
+	font-display: swap;
 }
 
 
@@ -29,6 +31,7 @@
 		url("../fonts/RobotoCondensedBoldItalic/RobotoCondensedBoldItalic.ttf") format("truetype");
 	font-style: italic;
 	font-weight: 700;
+	font-display: swap;
 }
 
 
@@ -40,6 +43,7 @@
 		url("../fonts/RobotoCondensedIitalic/RobotoCondensedIitalic.ttf") format("truetype");
 	font-style: italic;
 	font-weight: 700;
+	font-display: swap;
 }
 
 
@@ -51,6 +55,7 @@
 		url("../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
 	font-style: normal;
 	font-weight: 200;
+	font-display: swap;
 }
 
 
@@ -62,6 +67,7 @@
 		url("../fonts/RobotoCondensedLightItalic/RobotoCondensedLightItalic.ttf") format("truetype");
 	font-style: italic;
 	font-weight: 200;
+	font-display: swap;
 }
 
 
